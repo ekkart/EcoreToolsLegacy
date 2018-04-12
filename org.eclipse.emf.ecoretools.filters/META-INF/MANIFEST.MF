@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.emf.ecoretools.filters;singleton:=true
+Bundle-Version: 2.0.0.201406112035
+Bundle-ClassPath: org.eclipse.emf.ecoretools.filters_2.0.0.201406112035.jar
+Bundle-Activator: org.eclipse.emf.ecoretools.filters.internal.FilterPlugin
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Export-Package: org.eclipse.emf.ecoretools.filters.diagramfilters,
+  org.eclipse.emf.ecoretools.filters.internal;x-internal:=true,
+  org.eclipse.emf.ecoretools.filters.internal.actions;x-internal:=true,
+  org.eclipse.emf.ecoretools.filters.internal.commands;x-internal:=true,
+  org.eclipse.emf.ecoretools.filters.internal.dialogs;x-internal:=true,
+  org.eclipse.emf.ecoretools.filters.internal.extension;x-internal:=true,
+  org.eclipse.emf.ecoretools.filters.internal.providers;x-internal:=true,
+  org.eclipse.emf.ecoretools.filters.internal.utils;x-internal:=true
+Require-Bundle: org.eclipse.gmf.runtime.diagram.ui.properties,
+  org.eclipse.emf.ecore.edit;visibility:=reexport,
+  org.eclipse.ocl.ecore;visibility:=reexport
+Built-By: genie.modeling.sirius
+Bundle-Copyright: %copyright
+Build-Jdk: 1.6.0_45
+Created-By: Apache Maven
+Archiver-Version: Plexus Archiver
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: J2SE-1.5

@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.emf.ecoretools.tabbedproperties;singleton:=true
+Bundle-Version: 2.0.0.201406112035
+Bundle-ClassPath: org.eclipse.emf.ecoretools.tabbedproperties_2.0.0.201406112035.jar
+Bundle-Activator: org.eclipse.emf.ecoretools.tabbedproperties.internal.TabbedPropertiesPlugin
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Export-Package: org.eclipse.emf.ecoretools.tabbedproperties,
+  org.eclipse.emf.ecoretools.tabbedproperties.internal;x-internal:=true,
+  org.eclipse.emf.ecoretools.tabbedproperties.internal.sections;x-internal:=true,
+  org.eclipse.emf.ecoretools.tabbedproperties.internal.sections.listeners;x-internal:=true,
+  org.eclipse.emf.ecoretools.tabbedproperties.internal.utils;x-internal:=true,
+  org.eclipse.emf.ecoretools.tabbedproperties.providers,
+  org.eclipse.emf.ecoretools.tabbedproperties.sections,
+  org.eclipse.emf.ecoretools.tabbedproperties.sections.widgets,
+  org.eclipse.emf.ecoretools.tabbedproperties.utils
+Require-Bundle: org.eclipse.core.runtime,
+  org.eclipse.ui.views.properties.tabbed;visibility:=reexport,
+  org.eclipse.emf.ecore;visibility:=reexport,
+  org.eclipse.emf.edit.ui;visibility:=reexport,
+  org.eclipse.emf.ecore.edit;visibility:=reexport,
+  org.eclipse.sirius
+Build-Jdk: 1.6.0_45
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Created-By: Apache Maven
+Built-By: genie.modeling.sirius
+Archiver-Version: Plexus Archiver

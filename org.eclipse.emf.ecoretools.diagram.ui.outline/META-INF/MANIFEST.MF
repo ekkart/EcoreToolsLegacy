@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.emf.ecoretools.diagram.ui.outline;singleton:=true
+Bundle-Version: 2.0.0.201406112035
+Bundle-ClassPath: org.eclipse.emf.ecoretools.diagram.ui.outline_2.0.0.201406112035.jar
+Bundle-Activator: org.eclipse.emf.ecoretools.diagram.ui.outline.internal.Activator
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Export-Package: org.eclipse.emf.ecoretools.diagram.ui.outline,
+  org.eclipse.emf.ecoretools.diagram.ui.outline.actions,
+  org.eclipse.emf.ecoretools.diagram.ui.outline.decorator,
+  org.eclipse.emf.ecoretools.diagram.ui.outline.internal;x-internal:=true
+Require-Bundle: org.eclipse.gmf.runtime.diagram.ui,
+  org.eclipse.emf.edit.ui,
+  org.eclipse.emf.ecore.editor,
+  org.eclipse.core.expressions
+Build-Jdk: 1.6.0_45
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Created-By: Apache Maven
+Built-By: genie.modeling.sirius
+Archiver-Version: Plexus Archiver
